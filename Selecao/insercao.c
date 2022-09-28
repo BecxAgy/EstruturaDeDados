@@ -1,0 +1,2 @@
+https
+    : // acervolima.com/programa-para-reverter-palavras-em-uma-determinada-string-em-c/#:~:text=Programa%20para%20reverter%20palavras%20em%20uma%20determinada%20string,espa%C3%A7o%20usando%20a%20fun%C3%A7%C3%A3o%20STL%20reverse%20%28%29%20.
