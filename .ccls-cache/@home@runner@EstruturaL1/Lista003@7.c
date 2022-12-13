@@ -53,8 +53,8 @@ void insertionSort(Aluno *arr, int size){
         key = (arr + i) ->nota;
         j = i - 1;
         while (j >= 0 && (arr + j) ->nota > key) {
-            (arr + (j + 1))->nota = (arr + j)->nota;
-            (arr + (j + 1))->matricula = (arr + j)->matricula;
+            *(arr + (j + 1)) = *(arr + j);
+           
             j = j - 1;
         }
         (arr + (j+1)) ->nota= key;
@@ -111,5 +111,7 @@ int main(){
   if(escolha ==1) listarpNota(lista, n);
 
   if(escolha==2) listarpMatric(lista,n);
+
+  free(lista);
   
 }
